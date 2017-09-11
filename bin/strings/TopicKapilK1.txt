@@ -1,0 +1,18 @@
+
+
+####
+
+converting to Char Array to String.................
+
+
+1) String newstring = chararray.toString();
+  
+     this will return      [c@5tjjfffj444
+     
+     syntax className@HASHCODE
+     
+ 
+ 2)   String newstring    = String.valueof(chararray);
+     
+     
+     This will return the String
