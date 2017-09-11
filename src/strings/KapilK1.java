@@ -23,13 +23,14 @@ public class KapilK1
 			
 			if(s.charAt(i) == ch)
 			{
-				ch1[1]='1';
+				ch1[i]='1';
 				
 			}
 			
 			
 		}
 		
+		//String newstr = ch1.toString();
 		String newstr=String.valueOf(ch1);
 		
 		System.out.println(newstr);
