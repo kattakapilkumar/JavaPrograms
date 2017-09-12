@@ -24,7 +24,7 @@ public class Patterns3
 		{
 			for(int j=1;j<=1;j++)
 			{
-				System.out.println();
+				System.out.println(j+" ");
 			}
 			System.out.println();
 		}
