@@ -8,7 +8,7 @@ public class TwoStringASCII {
 		Scanner sc=new Scanner(System.in);
 		
 		
-		String str=sc.next();
+		String str=sc.nextLine();
 		int l=str.length();
 		String str1=str.substring(0,l/2);
 		String str2=str.substring(l/2,l);
@@ -38,7 +38,7 @@ public class TwoStringASCII {
 		sb.append(finalstr1);
 		
 		
-		System.out.println(sb);
+		System.out.println("String Builder:::"+sb);
 		
 		
 
