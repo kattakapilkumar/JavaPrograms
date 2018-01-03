@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution 
+{   
+ public static void main(String[] args) 
+ {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+     
+         //1)convert the given integer to string first
+        String s = String.valueOf(n);
+         //2) Calculating the string length.
+        int len = s.length();   
+        //System.out.println(len);
+        //***3) TAKING it in a charecter.
+        String substr =  s.substring(0,1);
+         //4)converting  char to int.
+         int m= Integer.parseInt(substr);
+         //System.out.println(m);
+     
+     
+         int half = len/ 2;     
+         for(int i=1;i<=len;i++)
+         {
+             for(int j=0;j<half;j++)
+             {
+                 System.out.print(m);
+             }
+             for(int k=0;k<i;k++)
+             {
+                 System.out.print(k);
+             }
+             for(int z=0;z<half;z++)
+             {
+                 System.out.print(m);             
+             }   
+              System.out.println();
+         }   
+ }
+}
